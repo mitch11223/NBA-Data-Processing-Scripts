@@ -19,6 +19,7 @@ This project is a collection of scripts and modules dedicated to processing NBA 
   - Scrapes data from other relevant websites.
 
 ## Future Work
-- Enhance data processing efficiency.
-- Expand data sources and types.
-- Improve data visualization capabilities.
+- Pull more data such as quarter by quarter data
+- Process play by play and substitution info
+- Create and implement ML models on the data
+- Control System too perhaps
