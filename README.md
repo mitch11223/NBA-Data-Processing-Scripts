@@ -1,5 +1,24 @@
-#Collection of some of the main parts of my NBA data processing projects. Still under construction as there is unlimited work for one person.
-#Data_Getter2024: main script that holds the DataGetter Class. Has multiple implmeentations that are run through the execute.py file.
-#Collects gamelogs, creates team and player metadata jsons, calculates and appends metadata and important information to gamelogs(such as the average OBPM or Height of the opponents guarding a given player)
-#Uses play by play and matchup data scraped from the the NBA API and other sites.
+# NBA Data Processing Project
 
+## Overview
+This project is a collection of scripts and modules dedicated to processing NBA data. It's still under construction due to the extensive nature of the work involved.
+
+## Main Components
+
+### Data_Getter2024
+- **Main Script**: Contains the `DataGetter` Class.
+- **Implementation**: Executed through `execute.py`.
+- **Functionality**:
+  - Collects game logs.
+  - Creates team and player metadata in JSON format.
+  - Calculates and appends metadata such as:
+    - Average Offensive Box Plus/Minus (OBPM) of opponents guarding a player.
+    - Height of the opponents guarding a player.
+- **Data Sources**: 
+  - Utilizes NBA API for play-by-play and matchup data.
+  - Scrapes data from other relevant websites.
+
+## Future Work
+- Enhance data processing efficiency.
+- Expand data sources and types.
+- Improve data visualization capabilities.
